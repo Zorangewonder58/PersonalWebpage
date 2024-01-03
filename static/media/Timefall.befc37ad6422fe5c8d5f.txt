@@ -1,0 +1,130 @@
+Protagonist: Nova
+Antagonist: 
+Deuteragonist: Orion
+
+Title: "Timefall"   
+“Timefall: A Wizard’s Revenge”  
+“The Timekeeper’s Chronicles”   
+“Timeless”   
+“The Hero's Reckoning: A Ring of Time”   
+
+
+Plot: In a world of magic and technology, a powerful wizard named Zarek the Shadow Mage
+ has harnessed the power of time travel and is using it to alter history for his own gain. The player takes on the role of a young adventurer tasked with stopping Zareks
+ nefarious plan and restoring the timeline to its proper state.
+
+Gameplay: The game is a third-person action adventure with RPG elements. The player travels through different time periods, such as ancient Egypt, medieval Europe, and futuristic cities, and interacts with historical figures and mythical creatures. The player can also customize their character with different abilities, weapons, and gear accumulated through different levels.
+
+Story: The game begins with the player discovering a time portal in a remote forest. After passing through it, they find themselves in a strange land where history has been twisted and distorted. They soon encounter a group of rebels who explain the situation and enlist the player's help in stopping Zareks.
+
+The rebels are led by a wise old sage who possesses knowledge of the time portal and its powers. He sends the player on various missions to different time periods to gather artifacts and clues, and to prevent Zareks from altering key events in history.
+
+Along the way, the player encounters various challenges and enemies, including Zareks henchmen, rival factions, and dangerous creatures from different eras. The player also has to navigate different environments, such as pyramids, castles, and skyscrapers, and solve puzzles and riddles to progress.
+
+As the player progresses through the game, they uncover more about Zareks motivations and past, and eventually confront him in a final showdown. The outcome of the battle determines the fate of the timeline, and the player is rewarded with various endings based on their choices and actions throughout the game.
+
+Overall, "_____" is a thrilling adventure that combines history, fantasy, and sci-fi elements, and challenges the player's skills and strategic thinking.
+
+Flowchart:
+
+
+Notes:
+Be mindful that the size of the image is appropriate for the size of the screen
+Resolution ^
+Site for erasing background: Remove Background from Image for Free – remove.bg
+Site for sprites: Search Art | OpenGameArt.org
+Site for sound effects: Freesound - Freesound
+High resolution backgrounds: Poly Haven (public 3D asset library)
+Sprite tiles: used to make RPG games 
+RPG makers utilize tiles (kinda like minecraft style building)
+
+https://www.canva.com/design/DAFboS6FNBA/cNaya2mBwshMMtZnlOnM4Q/watch?utm_content=DAFboS6FNBA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutto88n
+
+
+
+
+
+Script: 
+
+IN THE GRAVEYARD:
+
+*NEWS PLAYING ON THE RADIO: 
+Reporter: This just in, an unidentified man is on the loose creating alternate realities. The suspect is said to be dangerous and unpredictable*
+
+NOVA: Hey Mom, I still remember how you taught me how to fight. You said it was important to know how to defend ourselves, yet when the time came you couldn’t defend yourself? I understand revenge won't solve everything, but sometimes it's the only justice we can get. 
+
+SPARRING WITH ORION: 
+
+ORION: You new here?
+NOVA: Yea, you?
+ORION: Yea but I might not be here long if this is the competition, I definitely had the upper hand in this match.
+NOVA: Ok man, you’re obviously delusional. 
+ORION: I’ll gladly humble you, round 2?
+
+*LOCATION CHANGE*
+
+FOREST:
+
+NOVA: The hell?! WHAT DID YOU DO?!
+ORION: ME?!
+ 
+*FIGHT (ORION SAVES NOVA)*
+
+ORION: Still think you’re better than me?
+NOVA: That was my dad. . . 
+ORION: What?
+NOVA: You heard me?
+ORION: So your dad, is a time-traveling psychopath who kills people
+NOVA: Watch your mouth
+ORION: Who is going to make me?
+NOVA: YOU KN- you know what never mind, Ima go end this myself 
+ORION: No you’re not, I am 
+NOVA: Who do you think you are?
+*ORION walks away murmuring*
+NOVA: Where do you think you are goin- 
+
+*LOCATION CHANGE*
+Orion: I am getting really tired of having to deal with your daddy’s friends
+Nova: Shut up and watch my back
+
+*Side-Quest #1*
+
+-Find an Old Man
+-Old Man has information on the time traveling man but has a task fo you 
+-Old man asks you to pick up something from nearby shop owner 
+-Nearby shop owner needs you to go somewhere else
+-That other person needs you to go somewhere 
+-You begin to feel like this is a rabbit hole and goose chase 
+-Finally you meet the last person and he gives you what you need 
+-This repeats until you fund the original shop owner and have about 4 new items
+-The Old man tells you the information about the man and gives you a special weapon made of the items you collected 
+
+
+*Side Quest #2*
+
+-traveled to new location in forest
+-ambushed by Arcturus’s henchman
+	- simple battle (6 v 2)
+-Nova and Orion defend themselves
+-the last defeated attacker tells you info about the antagonist and gives you a reward before fading away
+
+*Main Quest Beqins*
+*skip preliminary fighting to the boss*
+
+Arcturus: Listen boy you don’t understand.
+NOVA: Why would I ever listen  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
