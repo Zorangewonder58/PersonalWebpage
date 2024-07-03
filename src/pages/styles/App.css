@@ -17,6 +17,9 @@ footer {
 
 .Home{
   text-align: left;
+    display: block;
+    min-height: 100vh;
+
 }
 
 .Home-header{
@@ -81,18 +84,7 @@ footer {
 }
 
 
-.AspirationSection {
-  height: 350px;
- 
-}
 
-.AspirationSection p {
-  font-size: x-large;
-  padding-top: 30px;
-  text-align: center;
-  text-shadow: 0 0 20px #fff;
-  
-}
 
 .About 
 {
@@ -112,6 +104,7 @@ footer {
   min-height: 100vh;
   position: relative;
 }
+
 
 #pagecontainer
 {
@@ -135,7 +128,7 @@ footer {
 }
 
 .AboutSection p {
-  
+
   display: block;
   word-wrap: break-word;
   font-size: x-large;
@@ -159,10 +152,15 @@ footer {
   width: 300px;
 }
 
+.Projects {
+    display: block;
+}
+
 .Projects header 
 {
   text-align: center;
   border-bottom: 4px solid black;
+
 }
 
 
@@ -219,6 +217,7 @@ body{
   pointer-events: none;
 }
 
+
 .Projectimage img
 {
   max-width: 200px;
@@ -248,10 +247,7 @@ body{
   display: block;
 }
 
-#main
-{
-  margin-left: 250px;
-}
+
 
 
 #linkedin
@@ -332,10 +328,39 @@ body{
   transition: background-color 0.3s ease;
 }
 
+
+
 .button:hover
 {
   background-color: #795f0e;
   border: 1px solid #9e7c14;
+}
+
+.sidebutton
+{
+    position: left;
+    display: flex;
+    padding: 19px 20px 10px 19px;
+    color: #FFF;
+    margin: 0  auto;
+    background: #9e7c14;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    border: 1px solid #9e7c14;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+    border-radius: 50% / 15%;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.sidebutton:hover
+{
+    background-color: #795f0e;
+    border: 1px solid #9e7c14;
 }
 
 .Contact .button 
@@ -378,7 +403,14 @@ body{
   padding-bottom: 20px;
 
 }*/
-
+.ProjectImagesMobile img{
+    width: 100%;
+    height: 250px;
+    width: 250px;
+    display: block;
+    padding: 10px 10px 10px 15px;
+    border-radius: 50%;
+}
 .ProjectImages img 
 {
   width: 50%;
@@ -551,12 +583,20 @@ body{
 
 }
 
+.sidenav.active{
+    width: 250px;
+}
+
+.empty{
+    width: 0%;
+}
+
 .sidenav h3
 {
   text-align: center;
   font-variant: small-caps;
   text-shadow: 0 0 20px #fff;
-  font-size: 36px;
+  font-size: 40px;
   word-wrap: normal;
   margin-left: 5px;
   margin-bottom: 15px;
@@ -604,14 +644,24 @@ body{
   margin-left: 50px;
 }
 
-#main{
-  transition: margin-left .5s;
-  padding: 3.5px;
+#returnMenu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 36px;
+    left: 0px;
+    padding-top: 20px;
 }
+
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+  #main{
+      transition: margin-right .5s;
+      padding: 0px;
+      margin-left: 0px;
+  }
 }
 
 
@@ -678,4 +728,74 @@ nav li a{
   .App-header{
     background-color: lightgreen;
   }
+
+    #mainDesktop
+    {
+        margin-left: 250px;
+        transition: margin-left .5s;
+        padding: 3.5px;
+    }
+
+    #main{
+
+        padding: 3.5px;
+        display: block;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #main {
+        overflow-x: hidden;
+        transition: margin-left 0.5s ease;
+
+    }
+
+    p {
+        display: block;
+        width: 100%;
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+
+
+
+
+    .sidenav.active ~ #main {
+        margin-left: 250px;
+    }
+
+    .button
+    {
+        position: relative;
+        display: flex;
+        color: #FFF;
+        background: #9e7c14;
+        font-size: 18px;
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+        border: 1px solid #9e7c14;
+        border-width: 1px 1px 3px;
+        margin-bottom: 10px;
+        border-radius: 50% / 15%;
+        transition: background-color 0.3s ease;
+    }
+
+    .ProjectsSections
+    {
+        height: 350px;
+        padding-bottom: 20px;
+    }
+
+    .ProjectImagesMobile img{
+        width: 100%;
+        height: 250px;
+        width: 250px;
+        display: block;
+        border-radius: 50%;
+    }
+
 }

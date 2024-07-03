@@ -1,12 +1,21 @@
 
 import './styles/App.css';
+import './styles/NewApp.css'
 import headshot from './images/Headshot.jpg';
 import collegiatepic from './images/Collegiatepic.JPEG'
 import { getCurrentDate, getMoment } from '../utils/Date';
+import Button from '@mui/material/Button'
+import {Link} from 'react-router-dom'
 
 import Navbar from './components/Navbar/Navbar';
 
 import ContactFooter from './components/Footer';
+import React, {useContext} from "react";
+import MenuContext from "./components/MenuContext";
+import ScrollButton from "./components/ScrollButton";
+import App from "./App";
+import Projects2 from "./ProjectsPage/Projects2";
+import {useMediaQuery} from "react-responsive";
 
 console.log(getMoment());
 
@@ -25,7 +34,9 @@ else if (currentMoment == "06-09")
 
     //
 const example = "JSX"
-function Home() {
+
+
+function Home({isVisible, onToggle}) {
   const backgroundstyle = {
     backgroundImage: `url(${collegiatepic})`,
     height: "100vh",
@@ -33,20 +44,36 @@ function Home() {
     backgroundColor: 'rgba(255,255,255, 0.7)',
   };
 
-  return (
-    <><div className="Home" id='main' style={backgroundstyle}>
-      <header className="Home-header">
-        <h3>{Greeting}</h3>
-        <h3>
-         Welcome to my Website!
-        </h3>
-      </header>
-      
-      <body>
+    const {isOpen} = useContext(MenuContext);
+
+    const SetProjectsVisible = () => {
+            App.isSectionProjectVisible = true;
+
+    }
+
+    const isMobile = useMediaQuery({query: '(max-width: 768px'});
+
+
+    return (
+    <><div className="Home" id="hidden" id='mainDesktop' style={{ marginLeft: isOpen ? '250px' : '0' }} style={backgroundstyle}>
+        <header className="Home-header">
+            <h3>{Greeting}</h3>
+            <h3>
+                Welcome to my Website!
+            </h3>
+
+            {isMobile && <div className="ScrollButt">
+                <a onClick={onToggle}><ScrollButton  sectionId="Projects" content="Projects"/></a>
+            </div>}
+
+        </header>
+
+        <body>
         <div className='bottom'>
-       
+
+
         </div>
-      </body>
+        </body>
 
     </div>
     </>

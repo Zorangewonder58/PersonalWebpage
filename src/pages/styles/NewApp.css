@@ -1,0 +1,211 @@
+
+
+
+.transitionButton
+{
+    align-content: center;
+}
+
+
+/*Main page*/
+
+.center{
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.section {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.section.hidden {
+    opacity: 0;
+}
+
+
+.ProjectsMobile
+{
+    display: block;
+    min-height: 100vh;
+
+}
+
+
+
+.ProjectsMobile header
+{
+    text-align: center;
+    border-bottom: 4px solid black;
+
+}
+
+/*.Sectioned {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}*/
+.Sect
+{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.Sectioned {
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.Sected
+{
+    margin-top: 300px;
+
+
+}
+
+.MobileProjectsSection button
+{
+    position: relative;
+    display: flex;
+    color: #FFF;
+    background: #9e7c14;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    border: 1px solid #9e7c14;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+    border-radius: 50% / 15%;
+    transition: background-color 0.3s ease;
+}
+
+.MobileProjectsSection a {
+    text-decoration: none;
+}
+
+.AspirationMobileSection {
+    height: 350px;
+    width: 100%;
+
+}
+
+.AspirationMobileSection p {
+    font-size: large;
+    padding-top: 30px;
+    margin: auto auto auto auto;
+    text-align: center;
+    text-shadow: 0 0 20px #fff;
+
+}
+
+.AspirationMobileSection h2 {
+
+    padding-top: 30px;
+    margin: auto auto auto auto;
+    display: block;
+
+}
+
+.AspirationMobileSection img {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    width: 50%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.AspirationSection p {
+    font-size: large;
+    padding-top: 30px;
+    margin: auto auto auto auto;
+    text-align: center;
+    text-shadow: 0 0 20px #fff;
+}
+
+.AspirationSection h2 {
+
+    padding-top: 30px;
+    margin: auto auto auto auto;
+    display: block;
+
+}
+
+
+.AspirationSection img{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    width: 50%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.AboutSectionMobile p{
+    font-size: large;
+    padding-top: 30px;
+    margin: auto auto auto auto;
+    text-align: center;
+    text-shadow: 0 0 20px #fff;
+    display: inline-block;
+    width: 50%;
+}
+
+
+.AboutSectionMobile img {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    width: 50%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.AboutSectionMobile {
+    margin-bottom: 20px;
+    padding-bottom: auto;
+}
+
+
+.AboutMobile {
+    min-height: 100vh;
+    position: relative;
+}
+
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+#main {
+    min-height: 100vh;
+    overflow-y: auto;
+}
+
+.ScrollButt{
+
+    align-items: center;
+    text-align: center;
+    align-content: center;
+
+}
+
