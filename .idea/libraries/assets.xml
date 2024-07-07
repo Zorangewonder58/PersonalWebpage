@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="assets">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/pages/assets/Python Database Project.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/pages/assets/ZOW executable.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/pages/assets/Affirm.io(Complete App).zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,801 @@
+
+
+.App {
+  text-align: center;
+  background-color: #C4A484;
+}
+
+footer {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: block;
+  height: 2.5rem;
+}
+
+.Home{
+  text-align: left;
+    display: block;
+    min-height: 100vh;
+
+}
+
+.Home-header{
+  word-wrap: normal;
+  display: block;
+  padding-top: 150px;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(30px + 2vmin);
+  color: black;
+}
+
+.Home-header h3 {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  text-shadow: 0 0 20px #fff;
+}
+
+.Home p{
+  color: #9b9b9b;
+  font-weight: bold;
+}
+
+.Aspirations
+{
+  min-height: 100vh;
+  position: relative;
+}
+.Aspirations header {
+  text-align: center;
+  border-bottom: 5px solid black;
+}
+
+.Aspirations h1
+{
+  text-align: center;
+}
+
+.Aspirations p {
+  line-height: 1.6em;
+  font-size: large;
+}
+
+.AspirationImage img {
+  width: 50%;
+  float: left;
+  display: block;
+  padding: 10px 10px 10px 15px;
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+}
+
+.AspirationImageRight img {
+  width: 50%;
+  float: right;
+  display: block;
+  padding: 10px 10px 10px 15px;
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+}
+
+
+
+
+.About 
+{
+  min-height: 100vh;
+  position: relative;
+}
+
+#main footer
+{
+  font-size: medium;
+  font-style: normal;
+  text-shadow: none;
+}
+
+.Projects 
+{
+  min-height: 100vh;
+  position: relative;
+}
+
+
+#pagecontainer
+{
+  min-height: 100vh;
+  position: relative;
+}
+
+
+.About header 
+{
+  text-align: center;
+  border-bottom: 4px solid black;
+}
+
+.AboutSection 
+{
+  height: 300px;
+  width: 50%;
+  display: block;
+  padding-top: 20px;
+}
+
+.AboutSection p {
+
+  display: block;
+  word-wrap: break-word;
+  font-size: x-large;
+  padding-left: 15px;
+  text-shadow: 0 0 20px #fff;
+  padding-top: 0px;
+}
+.AboutImage
+{
+  height: 300px;
+  display: block;
+}
+
+.AboutImage img
+{
+  width: 50%;
+  display: block;
+  padding: 10px 10px 10px 15px;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+.Projects {
+    display: block;
+}
+
+.Projects header 
+{
+  text-align: center;
+  border-bottom: 4px solid black;
+
+}
+
+
+.bottom
+{
+  position: absolute;
+  bottom: 5px;
+}
+
+
+
+.Home body{
+  background: none;
+}
+
+
+.Contact 
+{
+  text-align: center;
+  background-color: #C4A484;
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap
+{
+  padding-bottom: 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.Contact header
+{
+  text-align: center;
+  border-bottom: 4px solid black;
+  font-variant: small-caps;
+  text-shadow: 0 0 20px #fff;
+
+}
+
+.Contact h2 
+{
+  font-variant: small-caps;
+  text-shadow: 0 0 20px #fff;
+  font-size: 1.5em;
+}
+
+body{
+  background-color: #C4A484;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.Projectimage img
+{
+  max-width: 200px;
+  width: 50%;
+  height: 200px;
+  display: block;
+  float: right;
+}
+
+
+.Alternate 
+{
+  padding-left: 90px;
+
+}
+
+.center{
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+
+#center{
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  display: block;
+}
+
+
+
+
+#linkedin
+{
+  margin-right : 15px;
+  display: block;
+}
+
+
+
+.Headshot
+{
+  height: 400px;
+  width: 400px;
+}
+
+
+.Projects footer
+{
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  display: block;
+  margin: 0 0 0 0;
+  padding: 0%;
+}
+
+.Projects footer img
+{
+  height: 200px;
+  width: 1000px;
+  
+}
+
+.Projects footer a 
+{
+  
+  color: black;
+  text-shadow: 0 0 20px #fff;
+  font-weight: bold;
+}
+
+.Projects footer a:hover
+{
+  color: darkblue;
+}
+.Circle
+{
+  border-radius: 50%;
+  width: auto;
+  height: 400px;
+  float: left;
+  display: block;
+}
+
+.ProjectsSections
+{
+  height: 350px;
+  padding-bottom: 20px;
+}
+
+.button
+{
+  position: relative;
+	display: flex;
+	padding: 19px 20px 10px 19px;
+	color: #FFF;
+	margin: 0  auto;
+	background: #9e7c14;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+  font-weight: bold;
+	border: 1px solid #9e7c14;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+  border-radius: 50% / 15%;
+  transition: background-color 0.3s ease;
+}
+
+
+
+.button:hover
+{
+  background-color: #795f0e;
+  border: 1px solid #9e7c14;
+}
+
+.sidebutton
+{
+    position: left;
+    display: flex;
+    padding: 19px 20px 10px 19px;
+    color: #FFF;
+    margin: 0  auto;
+    background: #9e7c14;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    border: 1px solid #9e7c14;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+    border-radius: 50% / 15%;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.sidebutton:hover
+{
+    background-color: #795f0e;
+    border: 1px solid #9e7c14;
+}
+
+.Contact .button 
+{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.ProjectsSections .button 
+{
+	display: block;
+	margin: 0  0 auto;
+	width: 30%;
+
+}
+
+.ProjectsSections a 
+{
+  text-decoration: none;
+}
+
+
+.ProjectsSections img
+{
+  width: 50%;
+  height: 350px;
+  width: 350px;
+  display: block;
+  float: right;
+  padding: 10px 10px 10px 15px;
+  border-radius: 50%;
+}
+
+/*.ProjectImages
+{
+  width: 50%;
+  height: 300px;
+  display: block;
+  float: right;
+  padding-bottom: 20px;
+
+}*/
+.ProjectImagesMobile img{
+    width: 100%;
+    height: 250px;
+    width: 250px;
+    display: block;
+    padding: 10px 10px 10px 15px;
+    border-radius: 50%;
+}
+.ProjectImages img 
+{
+  width: 50%;
+  height: 350px;
+  width: 350px;
+  display: block;
+  float: right;
+  padding: 10px 10px 10px 15px;
+  border-radius: 50%;
+}
+
+
+.ProjectsSections p{
+  text-align: left;
+  display: block;
+  width: 50%;
+  word-wrap: break-word;
+  border-left: 4px solid black;
+  font-size: x-large;
+  padding-left: 15px;
+  text-shadow: 0 0 20px #fff;
+}
+
+.ProjectsSections h1
+{
+  text-align: center;
+  
+}
+
+.ProjectsSections h2
+{
+  display: block;
+  font-size: 1.5em;
+}
+
+.footercontact{
+  background-color: #C04000;
+  text-align: center;
+  color: aliceblue;
+  margin: 0 0 0 0;
+  padding: 0%;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.footercontact a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+
+/*Form rules*/
+
+.form-style-5{
+	max-width: 500px;
+	padding: 10px 20px;
+	background: #887109;
+	margin: 10px auto;
+	padding: 20px;
+	border-radius: 8px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-5 fieldset{
+	border: none;
+}
+.form-style-5 legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.form-style-5 label {
+	display: block;
+	margin-bottom: 8px;
+}
+.form-style-5 input[type="text"],
+.form-style-5 input[type="date"],
+.form-style-5 input[type="datetime"],
+.form-style-5 input[type="email"],
+.form-style-5 input[type="number"],
+.form-style-5 input[type="search"],
+.form-style-5 input[type="time"],
+.form-style-5 input[type="url"],
+.form-style-5 textarea,
+.form-style-5 select {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #e8eeef;
+	color:#8a97a0;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+.form-style-5 input[type="text"]:focus,
+.form-style-5 input[type="date"]:focus,
+.form-style-5 input[type="datetime"]:focus,
+.form-style-5 input[type="email"]:focus,
+.form-style-5 input[type="number"]:focus,
+.form-style-5 input[type="search"]:focus,
+.form-style-5 input[type="time"]:focus,
+.form-style-5 input[type="url"]:focus,
+.form-style-5 textarea:focus,
+.form-style-5 select:focus{
+	background: #d2d9dd;
+}
+.form-style-5 select{
+	-webkit-appearance: menulist-button;
+	height:35px;
+}
+.form-style-5 .number {
+	background: #1abc9c;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+
+.form-style-5 input[type="submit"],
+.form-style-5 input[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: black;
+	margin: 0 auto;
+	background: #FFF;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #FFF;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+.form-style-5 input[type="submit"]:hover,
+.form-style-5 input[type="button"]:hover
+{
+	background: #8a8a8a;
+  border: 1px solid #8a8a8a;
+}
+/*Navigation style rules*/
+.sidenav
+{
+  height: 100%;
+  width: 250px;
+
+  position: fixed;/*Stay in place*/
+  z-index: 1;/*Stay on top*/
+  top: 0;
+  left: 0;
+  background-color: blanchedalmond;
+  overflow-x: hidden;/*Disable horizontal scroll*/
+  padding-top: 0px;
+  transition: 0.5s; /*0.5 second transition effect to slide in side nav*/
+
+}
+
+.sidenav.active{
+    width: 250px;
+}
+
+.empty{
+    width: 0%;
+}
+
+.sidenav h3
+{
+  text-align: center;
+  font-variant: small-caps;
+  text-shadow: 0 0 20px #fff;
+  font-size: 40px;
+  word-wrap: normal;
+  margin-left: 5px;
+  margin-bottom: 15px;
+  border-bottom: 3px solid black;
+}
+
+.sidenav img {
+  height: auto;
+  width: 25%;
+  display: block;
+  float: left;
+  position: relative;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  margin: 10 0 10 10;
+}
+
+.sidenav h4
+{
+  text-align: center;
+  margin-top: 0px;
+  font-variant: small-caps;
+  text-shadow: 0 0 20px #fff;
+  font-size: 16px;
+}
+
+.sidenav a{
+  text-decoration: none;
+  padding: 8px 8px 8px 32px;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover{
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn{
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#returnMenu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 36px;
+    left: 0px;
+    padding-top: 20px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  #main{
+      transition: margin-right .5s;
+      padding: 0px;
+      margin-left: 0px;
+  }
+}
+
+
+
+nav{
+  background-color: blanchedalmond;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  text-align: center;
+}
+
+nav li{
+  align-items: center;
+  list-style: none;
+  display: block;
+  padding: 0.5em;
+  font-weight: bold;
+  width: 50%;
+}
+
+nav li a{
+  display: block;
+  color: #C04000;
+  text-decoration: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #C04000;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+
+}
+
+/*Viewports*/
+@media screen and (min-width: 900px)
+{
+  .App-header{
+    background-color: lightgreen;
+  }
+
+    #mainDesktop
+    {
+        margin-left: 250px;
+        transition: margin-left .5s;
+        padding: 3.5px;
+    }
+
+    #main{
+
+        padding: 3.5px;
+        display: block;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #main {
+        overflow-x: hidden;
+        transition: margin-left 0.5s ease;
+
+    }
+
+    p {
+        display: block;
+        width: 100%;
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+
+
+
+
+    .sidenav.active ~ #main {
+        margin-left: 250px;
+    }
+
+    .button
+    {
+        position: relative;
+        display: flex;
+        color: #FFF;
+        background: #9e7c14;
+        font-size: 18px;
+        text-align: center;
+        font-style: normal;
+        font-weight: bold;
+        border: 1px solid #9e7c14;
+        border-width: 1px 1px 3px;
+        margin-bottom: 10px;
+        border-radius: 50% / 15%;
+        transition: background-color 0.3s ease;
+    }
+
+    .ProjectsSections
+    {
+        height: 350px;
+        padding-bottom: 20px;
+    }
+
+    .ProjectImagesMobile img{
+        width: 100%;
+        height: 250px;
+        width: 250px;
+        display: block;
+        border-radius: 50%;
+    }
+
+}
