@@ -120,7 +120,7 @@ function App() {
     </Router>}
 
         {isDesktop && <Router>
-            <MenuContext.Provider value={{isOpen, setIsOpen}}>
+            {/*<MenuContext.Provider value={{isOpen, setIsOpen}}>*/}
                 <Navbar />
                 <Routes>
                     <Route exact path="/" element={<Home />} />
@@ -129,7 +129,7 @@ function App() {
                     <Route exact path="/About" element={<About />} />
                     <Route path="/Contact" element={<Contact />} />
                 </Routes>
-            </MenuContext.Provider>
+            {/*</MenuContext.Provider>*/}
 
 
         </Router>}

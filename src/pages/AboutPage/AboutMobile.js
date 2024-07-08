@@ -21,7 +21,7 @@ const onButtonClick = () => {
 
 const left = {
     textAlign: 'left',
-    borderLeft: '6px outset black',
+    //borderLeft: '6px outset black',
     float: 'left'
 };
 
@@ -32,7 +32,7 @@ const leftimg = {
 
 const right = {
     textAlign: 'right',
-    borderRight: '6px outset black',
+    //borderRight: '6px outset black',
     float: 'right',
 }
 

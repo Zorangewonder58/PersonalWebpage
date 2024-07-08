@@ -17,11 +17,11 @@ function AspirationsDesktop({onToggle})
     };
 
     const borderright = {
-        borderRight: '4px solid black',
+        //borderRight: '4px solid black',
     };
 
     const borderleft = {
-        borderLeft: '4px solid black',
+        //borderLeft: '4px solid black',
     }
 
     return (

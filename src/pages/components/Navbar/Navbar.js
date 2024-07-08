@@ -19,6 +19,7 @@ import ContactIcon from '../../images/Contacticon.png'
 import AboutMeIcon from '../../images/Aboutmeicon.png'
 import HamburgerIcon from '../../images/HamburgerIcon.png'
 import {useMediaQuery} from "react-responsive";
+import '../../styles/NewApp.css'
 
 import MenuContext from "../MenuContext";
 
@@ -39,13 +40,15 @@ const Navbar = () => {
   document.getElementById('mySidenav').style.width = '250px';
   document.getElementById('mainDesktop').style.marginLeft = '250px';
     document.getElementById('returnMenu').style.display = 'none';
+    alert("Clicked!")
 }
 
 function closeNav()
 {
   document.getElementById('mySidenav').style.width = '0';
   document.getElementById('mainDesktop').style.marginLeft = '0';
-  document.getElementById('returnMenu').style.display = 'inline'
+  document.getElementById('returnMenu').style.display = 'block'
+
 }
 
 const toggleMenu = () => {
@@ -64,7 +67,7 @@ const underlinestyle = {
             <div>
 
                 {isOpen && <div className={`sidenav ${isOpen ? 'active' : ''}`} id="mySidenav">
-                    <img width="40px" height="40px" onClick={toggleMenu} src={HamburgerIcon} alt="Menu"/>
+                    {/*<img width="40px" height="40px" onClick={toggleMenu} src={HamburgerIcon} alt="Menu"/>*/}
                     <h3 style={underlinestyle}>Jaden Williams</h3>
                     <h4>Aspiring Game Developer/Software Engineer</h4>
                     <nav>
@@ -105,52 +108,55 @@ const underlinestyle = {
 
 
         {
-            isDesktop &&  <>
+            isDesktop && <>
+
+                {/*<div id='returnMenu'>*/}
+                {/*    <img width="40px" height="40px" onClick={openNav} src={HamburgerIcon} alt="Menu"/>*/}
+                {/*</div>*/}
+
                 <div className='sidenav' id='mySidenav'>
-                <img width="40px" height="40px" onClick={closeNav} src={HamburgerIcon} alt="Menu"/>
+                    {/*<img width="40px" height="40px" onClick={closeNav} src={HamburgerIcon} alt="Menu"/>*/}
 
 
-                <h3 style={underlinestyle}>Jaden Williams</h3>
-                <h4>Aspiring Software Engineer</h4>
-                <nav>
-                    <ul>
-                        <li>
-                            <img src={HomeIcon} alt="Home"/>
-                            <Link to="/">Home</Link>
-                        </li>
-                        <li>
-                            <img src={ProjectsIcon} alt="Home"/>
-                            <Link to="/Projects">Portfolio</Link>
-                        </li>
-                        <li>
-                            <img src={AspireIcon} alt="Home"/>
-                            <Link to="/Aspirations">Aspirations</Link>
-                        </li>
-                        <li>
-                            <img src={AboutMeIcon} alt='About'/>
-                            <Link to="/About">About</Link>
-                        </li>
-                        <li>
-                            <img src={ContactIcon} alt="Home"/>
-                            <Link to="/Contact">Contact</Link>
-                        </li>
-                        {/*<li>*/}
-                        {/*    <img src={HamburgerIcon} alt="Closing button"/>*/}
-                        {/*    <a onClick={closeNav}>Close Menu</a>*/}
-                        {/*</li>*/}
-                    </ul>
-                </nav>
-            </div>
-
-                <div id='returnMenu'>
-                    <img width="40px" height="40px" onClick={openNav} src={HamburgerIcon} alt="Menu"/>
+                    <h3 style={underlinestyle}>Jaden Williams</h3>
+                    <h4>Aspiring Software Engineer</h4>
+                    <nav>
+                        <ul>
+                            <li>
+                                <img src={HomeIcon} alt="Home"/>
+                                <Link to="/">Home</Link>
+                            </li>
+                            <li>
+                                <img src={ProjectsIcon} alt="Home"/>
+                                <Link to="/Projects">Portfolio</Link>
+                            </li>
+                            <li>
+                                <img src={AspireIcon} alt="Home"/>
+                                <Link to="/Aspirations">Aspirations</Link>
+                            </li>
+                            <li>
+                                <img src={AboutMeIcon} alt='About'/>
+                                <Link to="/About">About</Link>
+                            </li>
+                            <li>
+                                <img src={ContactIcon} alt="Home"/>
+                                <Link to="/Contact">Contact</Link>
+                            </li>
+                            {/*<li>*/}
+                            {/*    <img src={HamburgerIcon} alt="Closing button"/>*/}
+                            {/*    <a onClick={closeNav}>Close Menu</a>*/}
+                            {/*</li>*/}
+                        </ul>
+                    </nav>
                 </div>
+
+
             </>
 
-                }
-            </>
-            )
-            ;
-        };
+        }
+        </>
+    )
+        ;
+};
 
-            export default Navbar;
+export default Navbar;

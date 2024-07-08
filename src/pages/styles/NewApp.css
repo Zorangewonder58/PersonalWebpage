@@ -209,3 +209,7 @@
 
 }
 
+#returnMenu img{
+    padding-left: 10px;
+    z-index: 1;
+}

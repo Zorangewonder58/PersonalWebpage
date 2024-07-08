@@ -18,11 +18,11 @@ function AspirationsMobile({isOpen, onToggle})
     };
 
     const borderright = {
-        borderRight: '4px solid black',
+        //borderRight: '4px solid black',
     };
 
     const borderleft = {
-        borderLeft: '4px solid black',
+        //borderLeft: '4px solid black',
     }
 
     return (<div className="Aspirations" id='main' style={{ marginLeft: isOpen ? '250px' : '0' }}>

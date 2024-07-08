@@ -18,7 +18,7 @@ const onButtonClick = () => {
 
 const left = {
     textAlign: 'left',
-    borderLeft: '6px outset black',
+    //borderLeft: '6px outset black',
     float: 'left'
 };
 
@@ -29,7 +29,7 @@ const leftimg = {
 
 const right = {
     textAlign: 'right',
-    borderRight: '6px outset black',
+    //borderRight: '6px outset black',
     float: 'right',
 }
 
@@ -41,6 +41,14 @@ const center = {
     textAlign: 'center',
     alignContent: 'center',
     alignItems: 'center',
+    display: 'flex'
+}
+
+const newcenter = {
+    paddingRight: '100px',
+    paddingLeft: '300px',
+    paddingTop: '50px',
+    paddingBottom: '-20px',
     display: 'flex'
 }
 
@@ -123,7 +131,10 @@ function AboutDesktop({onToggle})
                     <img src={CollegiatePic} alt='Me'/>
                 </div>
 
-                <div className='AboutSection' style={right}>
+                <br/>
+                <br />
+
+                <div className='AboutSection' style={newcenter}>
                     <p>Outside of programming, I've gained an interest in skating, exercise, and general personal
                         development.</p>
                 </div>
