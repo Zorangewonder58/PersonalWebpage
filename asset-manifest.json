@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PersonalWebpage/static/css/main.ab627893.css",
-    "main.js": "/PersonalWebpage/static/js/main.27e33bb6.js",
+    "main.css": "/PersonalWebpage/static/css/main.19b26877.css",
+    "main.js": "/PersonalWebpage/static/js/main.6645592c.js",
     "static/js/787.f59577ad.chunk.js": "/PersonalWebpage/static/js/787.f59577ad.chunk.js",
     "static/media/Affirm.io(Complete App).zip": "/PersonalWebpage/static/media/Affirm.io(Complete App).9ba980708187aec05063.zip",
     "static/media/ZOW executable.zip": "/PersonalWebpage/static/media/ZOW executable.ddc899a026accb530e7c.zip",
@@ -31,12 +31,12 @@
     "static/media/Python Database Project.zip": "/PersonalWebpage/static/media/Python Database Project.d6cec2f76bf815d2aef6.zip",
     "static/media/Timefall.txt": "/PersonalWebpage/static/media/Timefall.befc37ad6422fe5c8d5f.txt",
     "index.html": "/PersonalWebpage/index.html",
-    "main.ab627893.css.map": "/PersonalWebpage/static/css/main.ab627893.css.map",
-    "main.27e33bb6.js.map": "/PersonalWebpage/static/js/main.27e33bb6.js.map",
+    "main.19b26877.css.map": "/PersonalWebpage/static/css/main.19b26877.css.map",
+    "main.6645592c.js.map": "/PersonalWebpage/static/js/main.6645592c.js.map",
     "787.f59577ad.chunk.js.map": "/PersonalWebpage/static/js/787.f59577ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab627893.css",
-    "static/js/main.27e33bb6.js"
+    "static/css/main.19b26877.css",
+    "static/js/main.6645592c.js"
   ]
 }
