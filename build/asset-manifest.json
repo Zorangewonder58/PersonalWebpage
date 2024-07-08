@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/PersonalWebpage/static/css/main.ab627893.css",
+    "main.js": "/PersonalWebpage/static/js/main.27e33bb6.js",
+    "static/js/787.f59577ad.chunk.js": "/PersonalWebpage/static/js/787.f59577ad.chunk.js",
+    "static/media/Affirm.io(Complete App).zip": "/PersonalWebpage/static/media/Affirm.io(Complete App).9ba980708187aec05063.zip",
+    "static/media/ZOW executable.zip": "/PersonalWebpage/static/media/ZOW executable.ddc899a026accb530e7c.zip",
+    "static/media/DSC03049-2.JPEG": "/PersonalWebpage/static/media/DSC03049-2.838509b0dd4f853e992a.JPEG",
+    "static/media/Internship.jpg": "/PersonalWebpage/static/media/Internship.4316e87eeb36d2dc01f0.jpg",
+    "static/media/InternshipPic.png": "/PersonalWebpage/static/media/InternshipPic.8f10882dda77f2968694.png",
+    "static/media/Headshot.jpg": "/PersonalWebpage/static/media/Headshot.9aab3479a02eef260b70.jpg",
+    "static/media/Tutoringpic.jpeg": "/PersonalWebpage/static/media/Tutoringpic.17b8a329aae8955e774d.jpeg",
+    "static/media/Collegiatepic.JPEG": "/PersonalWebpage/static/media/Collegiatepic.bce0261dd66f7b1837b7.JPEG",
+    "static/media/GameJam.jpg": "/PersonalWebpage/static/media/GameJam.4fb11ecfba9292fde863.jpg",
+    "static/media/TechnologyBackground.png": "/PersonalWebpage/static/media/TechnologyBackground.de570c56c7b75fd1b788.png",
+    "static/media/ConnectzAppPicture.png": "/PersonalWebpage/static/media/ConnectzAppPicture.59d18dec9a258e67b8c1.png",
+    "static/media/Tech Resume V2.pdf": "/PersonalWebpage/static/media/Tech Resume V2.c9319f9ecc2f3c08940d.pdf",
+    "static/media/ZOW.png": "/PersonalWebpage/static/media/ZOW.e619b20a7128e8e0e322.png",
+    "static/media/Pythoncreatives .png": "/PersonalWebpage/static/media/Pythoncreatives .11bd7f346f308862a901.png",
+    "static/media/Connetz-main.zip": "/PersonalWebpage/static/media/Connetz-main.e6318984754e23a3c6e4.zip",
+    "static/media/Pieology.jpg": "/PersonalWebpage/static/media/Pieology.74701e79245d26fc326f.jpg",
+    "static/media/HamburgerIcon.png": "/PersonalWebpage/static/media/HamburgerIcon.03534c59a393b05b7573.png",
+    "static/media/Ross.jpg": "/PersonalWebpage/static/media/Ross.638cf7467882d374ca63.jpg",
+    "static/media/Developer.jpg": "/PersonalWebpage/static/media/Developer.2cf3d2c90a8f7004c9da.jpg",
+    "static/media/SoftDeveloper.jpg": "/PersonalWebpage/static/media/SoftDeveloper.ec5501c29586ca8f3365.jpg",
+    "static/media/Affirmio Home page.png": "/PersonalWebpage/static/media/Affirmio Home page.5aad7297500cf48f48ba.png",
+    "static/media/Githubimage.png": "/PersonalWebpage/static/media/Githubimage.0f4feb9814b621722f40.png",
+    "static/media/Affirmio Motivation.png": "/PersonalWebpage/static/media/Affirmio Motivation.ad0a2adeb96ee1a5f7d7.png",
+    "static/media/Famu.jpg": "/PersonalWebpage/static/media/Famu.c1ebc931c7063a40bee3.jpg",
+    "static/media/Gaming.jpg": "/PersonalWebpage/static/media/Gaming.f8faa4ba542c30971bd0.jpg",
+    "static/media/Python Database Project.zip": "/PersonalWebpage/static/media/Python Database Project.d6cec2f76bf815d2aef6.zip",
+    "static/media/Timefall.txt": "/PersonalWebpage/static/media/Timefall.befc37ad6422fe5c8d5f.txt",
+    "index.html": "/PersonalWebpage/index.html",
+    "main.ab627893.css.map": "/PersonalWebpage/static/css/main.ab627893.css.map",
+    "main.27e33bb6.js.map": "/PersonalWebpage/static/js/main.27e33bb6.js.map",
+    "787.f59577ad.chunk.js.map": "/PersonalWebpage/static/js/787.f59577ad.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab627893.css",
+    "static/js/main.27e33bb6.js"
+  ]
+}
